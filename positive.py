@@ -1,5 +1,5 @@
 n19 = float(input(" "))
-if n19 >= 0:
+if n19>0:
   print("Positive")
 elif n19==0:
   print("Zero")
