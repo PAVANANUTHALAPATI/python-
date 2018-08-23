@@ -1,7 +1,7 @@
 n19 = float(input(" "))
 if n19 >= 0:
-  print("positive")
+  print("Positive")
 elif n19==0:
-  print("zero")
+  print("Zero")
 else:
    print("Negative")
