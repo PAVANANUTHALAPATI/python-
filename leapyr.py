@@ -1,5 +1,5 @@
-n16=int(input(""))
-if(n16%4==0 and n16%100!=0 or n16%400==0):
-    print("The year is a leap year")
+pavala= int(input(""))
+if (( pavala%400 == 0)or (( pavala%4 == 0) and ( pavala%100 !=0))):
+  print("yes")
 else:
-    print("The year isn't a leap year")
+  print("no")
