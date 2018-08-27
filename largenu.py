@@ -1,0 +1,9 @@
+p=int(input(""))
+s=int(input(""))
+t=int(input(""))
+if(p>s):
+  print(p)
+elif(s>t):
+  print(s)
+else:
+  print(t)
