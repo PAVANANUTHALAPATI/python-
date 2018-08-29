@@ -1,0 +1,11 @@
+li=int(input(""))
+indira=li
+reddy=0
+while(li>0):
+    dig=li%10
+    reddy=reddy*10+dig
+    li=li//10
+if(indira==reddy):
+    print("yes")
+else:
+    print("no")
