@@ -4,6 +4,6 @@ for i in range(2,li//2+1):
     if(li%i==0):
         lu=lu+1
 if(lu<=0):
-    print("Number is prime")
+    print("yes")
 else:
-    print("Number isn't prime")
+    print("no")
