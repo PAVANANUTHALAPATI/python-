@@ -7,6 +7,6 @@ indra = int(input(""))
 if indra < 0:
     print("Factorial cannot be found for negative numbers")
 elif indra == 0:
-    print("Factorial of 0 is 1")
+    print("1")
 else:
     print( factorial(indra))
