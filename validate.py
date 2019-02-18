@@ -1,2 +1,2 @@
-str = u"23443434";
+str = u"this2009";  
 print str.isnumeric()
