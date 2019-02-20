@@ -1,7 +1,6 @@
-e=raw_input(" ")
-r=raw_input(" ")
+e,r=map(int,raw_input().split())
 temp=e
 e=r
 r=temp
-print("swapping the number",e)
-print("swapping the number",r)
+print(e)
+print(r)
